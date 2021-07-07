@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="./navbarstyle.css">
+
+  <style>
+      h1 {
+  text-align: center;
+      }
+      h3{
+        color:#a7ebc3;
+      }
+      #map{
+        width:100%;
+        height:90vh;
+        padding: 40px;
+      }
+
+      .bg-img {
+  /* The image used */
+  background-color: azure;
+  
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+/* Needed to position the navbar */
+position: relative;
+}
+
+/* Social Media Icon Styling*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+    </style>
+  </head>
+  
+  <body>
+
+    <nav class="navbar navbar-dark bg-dark">
+      
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Nik's Food Blog</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="https://www.instagram.com/niks_food_vlog/"class="fa fa-instagram"></a></li>
+          <li><a href="https://twitter.com/home"class="fa fa-twitter"></a></li>
+          <li><a href="https://www.facebook.com/"class="fa fa-facebook"></a></li>
+          <li><a href="https://www.youtube.com/"class="fa fa-youtube"></a></li>
+        </ul>
+    </div>
+    </nav>
+      
+    <div class="container-fluid" style="background-image:url('paneer.jpg'); min-height: 200px;background-position:right 35% bottom 65%;background-repeat:no-repeat;background-size:cover;">
+       <h3>Hello, Welcome to Food Plot</h3>
+      <p style="color: rgb(161, 245, 128);" >Managed by @nikhilchandrasekar <br>
+        Food 🥡🍱an art that never <br>
+        has a boundary, limits or language <br>
+        An emotion which drives us all...</p>
+    </div>
+    <h1 class="exploring">Start Exploring!<h1>
+    
+    <div id="map"></div>
+    <script src="index.js"></script>  
+  
+ </body>
+  </html>
