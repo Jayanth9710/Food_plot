@@ -37,4 +37,4 @@ var zoom=4;
 var elaneermarker= L.marker([10.821935666713527,
     78.69371116161345]).addTo(map);
 
-    elaneermarker.bindPopup('<h1>Elaneer and Dates Juice </h1> <p>Healthy Juice Varieties for affordable price.</p><img src="elaneer.jpg" alt="Elaneer Juice" width="300" height="300"><p><a href="https://www.instagram.com/p/CLbxTkPD8AE/?utm_source=ig_web_copy_link">Watch Review</a> </p>').openPopup();
+    elaneermarker.bindPopup('<h1>Elaneer and Dates Juice </h1> <p>Healthy Juice Varieties for affordable price.</p><img src="elaneer.jpg" alt="Elaneer Juice" width="300" height="300"><p><a href="https://www.youtube.com/watch?v=iY5a520hRiU">Watch Review</a> </p>').openPopup();
